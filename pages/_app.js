@@ -1,4 +1,3 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import React from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Head from 'next/head';
@@ -30,6 +29,7 @@ const GlobalStyle = createGlobalStyle`
 
 const { theme } = db;
 
+// eslint-disable-next-line react/prop-types
 export default function App({ Component, pageProps }) {
   return (
     <>
